@@ -1,4 +1,4 @@
-# AI1 & Data Science
+# AI & Data Science
 
 #### Technical Skills: Python, Java, SQL, TensorFlow, PyTorch, Scikit-learn, AWS SageMaker, Django, React, Arduino
 
