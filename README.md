@@ -38,7 +38,7 @@ My rule for any model: report what it does, report what it doesn't, and test it 
 ## Recognition
 
 **SOFEX** · Presented at the C8 Cybersecurity Exhibition in 2025, and again at SOFEX Aqaba in 2026  
-**WRCC 2026** · 2nd Place, World Robotics Championship, Open Category  
+**WRCC 2026** · 2nd Place, World Robot Caspian Cup, Baku, Open Category  
 **WEFE Hackathon 2024** · 1st Place  
 **AWS DeepRacer 2023** · Top 500 globally
 
