@@ -1,7 +1,7 @@
 # Ahlam Zahran
 
 **AI Engineer · Founder, Neurender — verified brain-decoding AI**
-Amman, Jordan · [LinkedIn](https://www.linkedin.com/in/ahlam-zahran) · [GitHub](https://github.com/Ahlam-Zahran) · [CV (PDF)](AhlamCV.pdf) · zahran.ahlam2002@gmail.com
+Amman, Jordan · [LinkedIn](https://www.linkedin.com/in/ahlam-zahran) · [GitHub](https://github.com/Ahlam-Zahran) · [Portfolio](https://ahlam-zahran.github.io/Portfolio/) · [CV (PDF)](AhlamCV.pdf) · zahran.ahlam2002@gmail.com
 
 I build AI that rebuilds the image a person is seeing from their fMRI brain scan, and I care as much about proving the result is real as about producing it. Every number I report is measured on held-out data, compared against chance, and traceable.
 
@@ -9,7 +9,7 @@ I build AI that rebuilds the image a person is seeing from their fMRI brain scan
 
 ## Education
 
-- **B.Sc., Artificial Intelligence & Data Science** | University of Petra _(Sep 2022 – Jun 2026)_ | GPA 3.59/4.00 | Graduation project: NeuroSeekers, the prototype of Neurender
+- **B.Sc., Artificial Intelligence & Data Science** | University of Petra _(Feb 2022 – Jul 2026)_ | GPA 3.59/4.00 | Graduation project: NeuroSeekers, the prototype of Neurender
 - **Biomedical Engineering (transferred)** | German Jordanian University _(Sep 2019 – Jun 2022)_
 
 ## Experience & Projects
@@ -23,13 +23,25 @@ I build AI that rebuilds the image a person is seeing from their fMRI brain scan
 - Trained subject-specific decoders on the Natural Scenes Dataset (NSD) using ROI-wise encoding with ridge regression and latent-space decoding.
 - Built a full-stack web application (Django backend, React + Bootstrap frontend) with real-time result display and visual analysis tools.
 - Designed workflows for cognitive-response monitoring and forensic research, including deception detection.
-- Presented at **SOFEX Jordan C8 Cybersecurity Exhibition 2025**, representing the University of Petra under the patronage of HRH Crown Prince Al Hussein bin Abdullah II, with strong interest from cybersecurity, AI and forensics experts. Presenting again at **SOFEX Aqaba, October 2026**.
+- Presented at **SOFEX Jordan C8 Cybersecurity Exhibition 2025**, representing the University of Petra under the patronage of HRH Crown Prince Al Hussein bin Abdullah II, with strong interest from cybersecurity, AI and forensics experts.
+- Invited back to present at **SOFEX 2026** (Aqaba, October 2026); the project was covered by Jordan TV, Roya TV, AlMamlaka TV, Amen FM and the Jordan Times.
 
 ### Student Chapter Chair, IEEE Computational Intelligence Society @ University of Petra _(2024)_
 - Led technical events, workshops and outreach to advance computational intelligence on campus, working across student and faculty teams.
 
 ### IoT Workshop Instructor @ University of Petra _(2024)_
 - Ran hands-on Arduino-based IoT workshops and guided students from prototype to a working autonomous robot demonstration.
+
+### Supply Chain Manager @ Bait Misk Coffee House, Jordan _(4 months)_
+- Managed purchasing, supplier coordination and stock levels, tracking inventory and usage to plan orders, reduce waste and keep products available.
+
+## Media & Interviews
+
+- **Jordan TV, _+962_** _(November 2026)_: featured interview on Neurender and AI-based brain decoding.
+- **Roya TV** _(2026)_: interview on reconstructing images from brain activity with AI.
+- **AlMamlaka TV** _(October 2026)_: news feature on decoding visual brain activity with AI, at SOFEX 2026.
+- **Amen FM 89.5** _(October 2026)_: radio interview on Neurender and AI brain decoding.
+- **The Jordan Times** _(October 2026)_: video interview as a SOFEX 2026 participant, on how AI reconstructs images from brain signals.
 
 ## Awards & Competitions
 
