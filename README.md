@@ -27,11 +27,11 @@ My rule for any model: report what it does, report what it doesn't, and test it 
 | | |
 |---|---|
 | **82.1%** | two-way identification accuracy on 982 held-out images (chance: 50%) |
-| **p < 0.001** | against 1,000 shuffled controls |
-| **~30 s** | to reconstruct an image from a brain scan |
-| **7T fMRI** | Natural Scenes Dataset, 26,688 voxels per image |
+| **p = 0.001** | no one of 1,000 shuffled controls reached it |
+| **~30 s** | per reconstruction run |
+| **7T fMRI** | Natural Scenes Dataset, one subject, 26,688 voxels |
 
-**How it works:** ridge-regression decoders read meaning and layout from fMRI signals, and Stable Diffusion turns them into an image. Every output is scored against a measured noise ceiling and null tests.
+**How it works:** ridge-regression decoders read meaning and layout from fMRI signals, and Stable Diffusion turns them into an image. It reimplements Takagi & Nishimoto (CVPR 2023), and every result is checked against chance, shuffled controls and test-retest reliability.
 
 **Next:** validation on standard 3-Tesla hospital scanners and a public verification standard for brain-decoding claims.
 

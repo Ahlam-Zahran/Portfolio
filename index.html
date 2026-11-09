@@ -663,9 +663,9 @@ h2::after{content:'';display:block;width:56px;height:4px;border-radius:4px;margi
     <div class="section-tag rv"><i class="fa-solid fa-bolt"></i> For AI and data science teams</div>
     <h2 class="rv">What I bring to a team</h2>
     <div class="bring-grid">
-      <div class="spot bring-card rv"><span class="bk">01</span><b>Models with measured results</b><p>82.1% two-way identification accuracy on 982 held-out images (chance is 50%), backed by a 1,000-shuffle null test (p&lt;0.001). I report what a model does, and what it does not.</p></div>
-      <div class="spot bring-card rv"><span class="bk">02</span><b>Data to deployed demo</b><p>Python, scikit-learn, PyTorch and SQL for the modelling; Django and React to ship it. I rebuilt a published pipeline and built the demo around it, about 30 seconds per image.</p></div>
-      <div class="spot bring-card rv"><span class="bk">03</span><b>Statistical rigour</b><p>Noise ceilings, null tests, 16 pre-registered variants reported with none adopted, and every failure documented. The habits good data teams depend on.</p></div>
+      <div class="spot bring-card rv"><span class="bk">01</span><b>Models with measured results</b><p>82.1% two-way identification accuracy on 982 held-out images (chance is 50%), backed by a 1,000-shuffle null test that no shuffle reached (p = 0.001). I report what a model does, and what it does not.</p></div>
+      <div class="spot bring-card rv"><span class="bk">02</span><b>Data to deployed demo</b><p>Python, scikit-learn, PyTorch and SQL for the modelling; Django and React to ship it. I reimplemented a published pipeline (Takagi &amp; Nishimoto, 2023), verified it, and built the demo around it.</p></div>
+      <div class="spot bring-card rv"><span class="bk">03</span><b>Statistical rigour</b><p>Test-retest reliability, null tests, 16 pre-registered variants reported with none adopted, and every failure documented. The habits good data teams depend on.</p></div>
       <div class="spot bring-card rv"><span class="bk">04</span><b>Initiative and team skills</b><p>Led the Neurender research, presented at SOFEX twice, chaired an IEEE student chapter, and won in robotics (WRCC 2nd) and entrepreneurship (WEFE 1st).</p></div>
     </div>
   </div>
@@ -682,13 +682,13 @@ h2::after{content:'';display:block;width:56px;height:4px;border-radius:4px;margi
         <div class="steps rv">
           <div class="spot step"><i class="fa-solid fa-wave-square"></i><b>Read the brain</b><span>7T fMRI from the Natural Scenes Dataset: 26,688 voxels per image, one participant at a time.</span></div>
           <div class="spot step"><i class="fa-solid fa-sliders"></i><b>Decode meaning &amp; layout</b><span>Ridge-regression decoders predict what a scene is about and where things are.</span></div>
-          <div class="spot step"><i class="fa-solid fa-image"></i><b>Generate the image</b><span>Stable Diffusion paints the picture from those two signals in about 30 seconds.</span></div>
-          <div class="spot step"><i class="fa-solid fa-shield-halved"></i><b>Prove it</b><span>Scored against chance, a measured noise ceiling and 1,000 shuffled controls. Every run is traceable.</span></div>
+          <div class="spot step"><i class="fa-solid fa-image"></i><b>Generate the image</b><span>Stable Diffusion paints the picture from those two signals in about 30 seconds per run.</span></div>
+          <div class="spot step"><i class="fa-solid fa-shield-halved"></i><b>Prove it</b><span>Scored against chance and 1,000 shuffled controls, with test-retest reliability measured. Every run is traceable.</span></div>
         </div>
         <div class="kpis rv">
           <div class="spot kpi"><b>82.1%</b><span>two-way identification accuracy, 982 held-out images (chance 50%)</span></div>
-          <div class="spot kpi"><b>p &lt; 0.001</b><span>against 1,000 shuffled controls; the real score was never reached</span></div>
-          <div class="spot kpi"><b>~30 s</b><span>per image on a warm system</span></div>
+          <div class="spot kpi"><b>p = 0.001</b><span>no one of 1,000 shuffled controls reached the real score</span></div>
+          <div class="spot kpi"><b>~30 s</b><span>per reconstruction run on a warm system</span></div>
         </div>
         <p class="note rv">Early-stage research system: results are for one participant in a public dataset. Next: validation on standard hospital scanners and a published verification standard for brain-decoding claims.</p>
         <div class="glass sofex rv">
@@ -803,7 +803,7 @@ h2::after{content:'';display:block;width:56px;height:4px;border-radius:4px;margi
         <div class="timeline-header"><div class="timeline-title">AI Engineer &amp; Full-Stack Developer — NeuroSeekers</div><span class="timeline-badge badge-purple">2025 – 2026</span></div>
         <div class="timeline-org"><i class="fa-solid fa-building-columns"></i> University of Petra</div>
         <div class="timeline-body"><ul>
-          <li>Rebuilt the Takagi et al. (CVPR 2023) fMRI-to-image pipeline with text-guided semantic reconstruction, reaching <strong>82.1%</strong> mean two-way identification accuracy on 982 held-out images (chance 50%).</li>
+          <li>Reimplemented and verified the Takagi &amp; Nishimoto (CVPR 2023) fMRI-to-image pipeline on one subject, reaching <strong>82.1%</strong> mean two-way identification accuracy on 982 held-out images (chance 50%).</li>
           <li>Trained subject-specific models on the Natural Scenes Dataset (NSD) with ROI-wise encoding, ridge regression and latent-space decoding.</li>
           <li>Built a full-stack web app (Django backend, React + Bootstrap frontend) with real-time results and visual analysis tools.</li>
           <li>Designed workflows for cognitive-response monitoring and forensic research, including deception detection.</li>
@@ -864,7 +864,7 @@ h2::after{content:'';display:block;width:56px;height:4px;border-radius:4px;margi
       <div class="spot project-card rv">
         <div class="project-icon" style="background:rgba(124,58,237,.2);color:var(--violet);"><i class="fa-solid fa-brain"></i></div>
         <div class="project-title">NeuroSeekers → Neurender: fMRI Brain Decoding</div>
-        <div class="project-desc">Rebuilt the CVPR 2023 fMRI-to-image pipeline with text-guided semantic reconstruction: 82.1% two-way identification accuracy on 982 held-out images. Includes a Django + React web application with real-time results and visual analysis.</div>
+        <div class="project-desc">Reimplemented and verified the Takagi &amp; Nishimoto (CVPR 2023) fMRI-to-image pipeline on one subject: 82.1% two-way identification accuracy on 982 held-out images. Includes a Django + React web application with real-time results and visual analysis.</div>
         <div class="project-tags"><span class="tag" style="background:rgba(124,58,237,.15);border-color:rgba(124,58,237,.3);color:var(--violet);">PyTorch</span><span class="tag" style="background:rgba(20,184,166,.1);border-color:rgba(20,184,166,.3);color:var(--teal);">Django</span><span class="tag" style="background:rgba(59,130,246,.1);border-color:rgba(59,130,246,.3);color:var(--blue);">React</span><span class="tag" style="background:rgba(236,72,153,.1);border-color:rgba(236,72,153,.3);color:var(--pink);">Diffusion Models</span></div>
         <div class="project-award"><i class="fa-solid fa-star"></i> SOFEX Jordan 2025 · SOFEX Aqaba 2026</div>
       </div>
