@@ -2,7 +2,7 @@
 
 # Ahlam Zahran
 
-### AI Engineer & Data Scientist · Founder of Neurender
+### AI Engineer & Data Scientist · Neurender (research project)
 
 Building AI that reconstructs what a person sees from their fMRI brain activity,<br>
 and proving every result is real.
@@ -18,7 +18,7 @@ and proving every result is real.
 
 ## About
 
-I'm an AI engineer and data scientist based in Amman, Jordan. My focus is machine learning, computer vision and the statistics needed to trust them. I founded **Neurender**, a brain-decoding startup that grew out of my graduation project at the University of Petra.
+I'm an AI engineer and data scientist based in Amman, Jordan. My focus is machine learning, computer vision and the statistics needed to trust them. I lead **Neurender**, a brain-decoding research project that grew out of my graduation project at the University of Petra.
 
 My rule for any model: report what it does, report what it doesn't, and test it against chance.
 
